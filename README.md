@@ -40,7 +40,6 @@ Arduino-password_protected_security_system
 
 # Images
 
-```markdown
 ## 📷 Screenshots
 
 ### Circuit Diagram
@@ -54,13 +53,11 @@ Arduino-password_protected_security_system
 ### Access Denied
 
 ![Denied](Images/AccessDenied.png)
-```
 
 ---
 
 # How it works
 
-```markdown
 ## ⚙️ System Workflow
 
 1. User enters the password using the keypad.
@@ -74,13 +71,11 @@ Arduino-password_protected_security_system
    - Serial monitor displays "Wrong Passcode"
    - Buzzer sounds and red LED lights up
    - Door remains locked
-```
 
 ---
 
 # Future Improvements
 
-```markdown
 ## 🚀 Future Improvements
 
 - EEPROM password storage
@@ -91,14 +86,12 @@ Arduino-password_protected_security_system
 - IoT integration
 - OLED display
 - ESP32 implementation
-```
 
 ---
 
 # Skills Demonstrated
 
 
-```markdown
 ## 🧠 Skills Demonstrated
 
 - Embedded Systems
@@ -108,7 +101,6 @@ Arduino-password_protected_security_system
 - Keypad Interfacing
 - Debugging
 - System Testing
-```
 
 ---
 
