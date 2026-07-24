@@ -49,11 +49,11 @@ Arduino-password_protected_security_system
 
 ### Access Granted
 
-![Granted](Images/DoorUnlocked.png)
+![Granted](Images/AccessGranted.png)
 
 ### Access Denied
 
-![Denied](Images/WrongPassword.png)
+![Denied](Images/AccessDenied.png)
 ```
 
 ---
