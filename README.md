@@ -3,13 +3,16 @@
 
 This project is an Arduino-based password-protected security system designed to simulate an electronic door locking mechanism.
 
-The system authenticates a user through a 4×4 keypad and grants or denies access depending on the entered password. LEDs provide visual feedback, while a piezo buzzer indicates successful or failed authentication.
+This project implements an Arduino-based password-protected security system that simulates an electronic access control mechanism. User authentication is performed through a 4×4 matrix keypad, while visual and audio feedback are provided using LEDs and a piezo buzzer. The system demonstrates fundamental embedded systems concepts including user input processing, decision making, and hardware control using Embedded C++. The project was designed and tested using Tinkercad.
 
 The project was developed using Embedded C++ and simulated in Tinkercad.
+## 🎯 Project Objective
+
+The objective of this project was to design and simulate a basic embedded security system capable of authenticating users and providing immediate visual and audio feedback based on the authentication result.
 ## ✨ Features
 
-- Password authentication
-- LEDs for visual feedback 
+- Secure password authentication using a 4×4 matrix keypad
+- Visual status indication using red and green LEDs 
 - Audio feedback using a piezo buzzer
 - Hidden password input using '*'
 - Incorrect password detection
@@ -17,24 +20,33 @@ The project was developed using Embedded C++ and simulated in Tinkercad.
 - Arduino simulation using Tinkercad
 ## 🔧 Components Used
 
+## Hardware
+
 - Arduino Uno
 - 4×4 Matrix Keypad
-- Red and Green LEDs
+- Red LED
+- Green LED
 - Piezo Buzzer
 - Breadboard
 - Jumper Wires
-## 💻 Software
+
+## Software
 
 - Arduino IDE
 - Embedded C++
 - Tinkercad
 ## 📁 Repository Structure
 Arduino-password_protected_security_system
-
+│
 ├── Code
+│   └── PasswordSystem.ino
 ├── Images
+│   ├── Circuit.png
+│   ├── AccessGranted.png
+│   └── AccessDenied.png
 ├── Simulation
-└── README.md
+│   └── tinkercad-link.txt
+└── README.mdd
 
 ---
 
@@ -65,15 +77,31 @@ Arduino-password_protected_security_system
 3. Arduino compares the entered password with the stored password.
 4. If correct:
    - serial monitor displays "Enter"
-   - green LED lights up and door opens
+   - green LED lights up and the system grants access
    - Buzzer confirms successful access
 5. If incorrect:
    - Serial monitor displays "Wrong Passcode"
    - Buzzer sounds and red LED lights up
-   - Door remains locked
+   - the system denies access
 
 ---
+## 🛠 Challenges
 
+During development, one challenge was handling keypad input while keeping the user interface responsive. Another was coordinating the LEDs, buzzer, and authentication logic to provide clear feedback without conflicting behavior. Solving these issues improved my debugging skills and understanding of embedded programming.
+# Skills Demonstrated
+
+
+## 🧠 Skills Demonstrated
+
+- Embedded Systems
+- Embedded C++
+- Arduino Programming
+- Hardware Integration
+- Keypad Interfacing
+- Debugging
+- System Testing
+
+---
 # Future Improvements
 
 ## 🚀 Future Improvements
@@ -89,18 +117,7 @@ Arduino-password_protected_security_system
 
 ---
 
-# Skills Demonstrated
 
+## 📚 Conclusion
 
-## 🧠 Skills Demonstrated
-
-- Embedded Systems
-- Embedded C++
-- Arduino Programming
-- Hardware Integration
-- Keypad Interfacing
-- Debugging
-- System Testing
-
----
-
+This project strengthened my understanding of embedded programming, digital input processing, hardware interfacing, and debugging. It also provided practical experience integrating multiple hardware components into a single Arduino application.
