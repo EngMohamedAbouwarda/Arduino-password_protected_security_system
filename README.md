@@ -28,3 +28,87 @@ The project was developed using Embedded C++ and simulated in Tinkercad.
 - Arduino IDE
 - Embedded C++
 - Tinkercad
+## 📁 Repository Structure
+Arduino-password_protected_security_system
+
+├── Code
+├── Images
+├── Simulation
+└── README.md
+
+---
+
+# Images
+
+```markdown
+## 📷 Screenshots
+
+### Circuit Diagram
+
+![Circuit](Images/Circuit.png)
+
+### Access Granted
+
+![Granted](Images/DoorUnlocked.png)
+
+### Access Denied
+
+![Denied](Images/WrongPassword.png)
+```
+
+---
+
+# How it works
+
+```markdown
+## ⚙️ System Workflow
+
+1. User enters the password using the keypad.
+2. Password characters are hidden on the serial monitor using '*'.
+3. Arduino compares the entered password with the stored password.
+4. If correct:
+   - serial monitor displays "Enter"
+   - green LED lights up and door opens
+   - Buzzer confirms successful access
+5. If incorrect:
+   - Serial monitor displays "Wrong Passcode"
+   - Buzzer sounds and red LED lights up
+   - Door remains locked
+```
+
+---
+
+# Future Improvements
+
+```markdown
+## 🚀 Future Improvements
+
+- EEPROM password storage
+- Password change functionality
+- RFID authentication
+- Fingerprint authentication
+- Bluetooth mobile control
+- IoT integration
+- OLED display
+- ESP32 implementation
+```
+
+---
+
+# Skills Demonstrated
+
+
+```markdown
+## 🧠 Skills Demonstrated
+
+- Embedded Systems
+- Embedded C++
+- Arduino Programming
+- Hardware Integration
+- Keypad Interfacing
+- Debugging
+- System Testing
+```
+
+---
+
